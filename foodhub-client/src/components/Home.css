@@ -1,0 +1,62 @@
+/* .Home {
+    background: url("./home-bg.png");
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: -1000;
+} */
+
+.Home {
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.image {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.name {
+    font-size: 4rem;
+    margin-top: 22%;
+    color: white;
+    font-weight: 700;
+    font-family: 'Berkshire Swash', cursive;
+    text-shadow: 2px 2px rgb(255, 181, 0);
+}
+
+.features {
+    font-size: 1.25rem;
+    color: rgb(255, 181, 0);
+}
+
+.hrstyle {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+}
+
+.Button {
+    margin: 20px 0;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: none;
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    width: 30%;
+    box-shadow: 0 5px 10px 2px rgba(233, 219, 219, 0.25);
+}
+
+@media screen and (max-width: 735px) {
+    .image {
+        display: none;
+    }
+    .rowHome {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,17 @@
+.Header {
+    display: relative;
+}
+
+.navbar {
+    color: white;
+}
+
+.logo-img {
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+* {
+    font-size: 1rem;
+}

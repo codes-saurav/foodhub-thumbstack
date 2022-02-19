@@ -1,0 +1,131 @@
+.left {
+    padding: 8% 0;
+}
+
+.right {
+    padding: 8% 5%;
+}
+
+.Total {
+    font-size: 1.5rem;
+    color: rgb(255, 181, 0);
+    font-weight: bold;
+    text-shadow: 1px 1px white;
+}
+
+
+/* .item {
+    background: white;
+    margin: 10px auto;
+    padding: 1% 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+} */
+
+.item {
+    margin: 30px auto 20px auto;
+    box-shadow: 0 5px 10px 2px rgba(233, 219, 219, 0.25);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    text-align: center;
+    width: 60%;
+}
+
+.hidden {
+    display: none;
+}
+
+.Inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* .Subt {
+    background: hsl(178, 57%, 58%);
+    border: none;
+    border-radius: 10px;
+    margin: 0 3px;
+    padding: 0 5px 3px;
+    font-size: 1.5rem;
+} */
+
+.Subt {
+    background: rgb(255, 181, 0);
+    border: none;
+    border-radius: 100%;
+    font-size: 1.25rem;
+    padding: 5%;
+    margin: 3%;
+    width: 25%;
+}
+
+.Pay {
+    border: none;
+    border-radius: 10px;
+    background: rgb(255, 181, 0);
+    width: 30%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.Thank {
+    font-size: 2.5rem;
+    color: rgb(255, 181, 0);
+    font-weight: bold;
+    text-shadow: 1px 1px white;
+}
+
+.print {
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    width: 60%;
+    margin-top: 2rem;
+    margin-left: 15%;
+    padding: 0.5rem;
+}
+
+.details {
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px rgb(255, 181, 0);
+}
+
+.Inputs {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.ind {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+
+.cate {
+    width: 15%;
+}
+
+.input {
+    width: 85%;
+    display: inline;
+}
+
+@media screen and (max-width: 735px) {
+    .checkout-row {
+        flex-direction: column;
+    }
+    .cate {
+        width: 20%;
+    }
+    .input {
+        width: 80%;
+    }
+}

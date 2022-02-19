@@ -1,0 +1,15 @@
+.App {
+    text-align: center;
+}
+
+.Background {
+    background: url("./home-bg.png");
+    background-size: cover;
+    /* position: absolute; */
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: -1000;
+    background-attachment: fixed;
+}

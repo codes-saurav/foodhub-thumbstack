@@ -1,0 +1,53 @@
+.root {
+    text-align: center;
+    padding: 0 4px;
+    width: 700px;
+}
+
+.Header {
+    display: flex;
+    flex-direction: row;
+}
+
+.heading {
+    width: 50%;
+    font-size: 2rem;
+}
+
+th,
+td,
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.billing-details {
+    text-align: left;
+    margin: auto 0;
+}
+
+.Table {
+    width: 650px;
+}
+
+.n {
+    width: 75%;
+}
+
+.s {
+    width: 5%;
+}
+
+.q {
+    width: 10%;
+}
+
+.p {
+    width: 10%;
+}
+
+.pdfbtn {
+    margin-top: 3%;
+    margin-left: 15%;
+    padding: 0.5rem;
+}
